@@ -1,3 +1,21 @@
+# React calculator-converter 
+
+This is a simple web application built with React that includes a calculator and a unit converter. \
+The application is designed to allow users to perform basic arithmetic calculations and convert units of measurement. 
+
+## Technologies Used 
+The application was built using the following technologies: 
+
++ React
++ Redux
++ Redux Toolkit
++ Redux Persist
+
+ If you have any feedback or suggestions for future updates, please don't hesitate to reach out to us. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
