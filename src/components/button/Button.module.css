@@ -1,0 +1,28 @@
+.button_number {
+  background: #73b1c1; 
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    border: none;
+  }
+  .button_operation {
+   background: #588d9c;
+   color: black;
+   font-weight: bold;
+   border: none;
+  }
+  
+  
+  .button_number:hover,
+  .button_operation:hover {
+ /* opacity: 0.75; */
+ background: #36626a; 
+  }
+
+  
+  
+  
+  

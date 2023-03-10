@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Calculator from './components/calculator/Calculator';
+import UnitConverters from './components/unitConverter/UnitConverters';
+import './styles.css';
 
-function App() {
+
+const App = () => {
+  const [showUnitConverter, setShowUnitConverter] = useState(false);
+  const [showCalculator, setShowCalculator] = useState(true);
+
+  const showCalculatorHandler = () => {
+    setShowCalculator(true);
+    setShowUnitConverter(false);
+  }
+  const showUnitConverterHandler = () => {
+    setShowCalculator(false);
+    setShowUnitConverter(true);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <button type='button' className='button' onClick={showCalculatorHandler}>Calculator</button>
+      <button type='button' className='button' onClick={showUnitConverterHandler}>Unit Converter</button>
+      {showCalculator && <Calculator />}
+      {showUnitConverter && <UnitConverters />}
+    </React.Fragment>
+  )
 }
 
-export default App;
+export default App

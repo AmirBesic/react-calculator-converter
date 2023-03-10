@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button {
+    border: none;
+    border-radius: 5%;
+    background: #73b1c1;
+    color:  black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #36626a; 
+}

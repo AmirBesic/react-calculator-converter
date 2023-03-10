@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.converter {
+    background-color: #35495e; 
+    box-shadow: -3px -4px 24px 0px rgba(255,255,255,0.75);
+    width: 620px;
+    height: 450px;
+    display: grid;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+}
+.heading {
+    color: white;
+    margin-bottom: 1rem;
+}
+.converter_btn {
+    background-color: transparent;
+    display: flex;
+    margin: auto;
+    margin-bottom: 4rem;
+    height: 30px;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.form{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.form > select {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+}
+.form > select > option {
+    background-color: black;
+    color: white;
+}
+.input {
+ width: 80%;
+ background: transparent;
+ color: white;
+ border: none;
+ border-bottom: 2px solid #facf5a;;
+ margin-right: 20px;
+ height: 3rem;
+ font-size: 2rem;
+ text-align: right;
+}

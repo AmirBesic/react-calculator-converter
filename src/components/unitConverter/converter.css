@@ -1,0 +1,53 @@
+.wrapper {
+    background-color: #483838;
+    color: white;
+    width: 620px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5%;
+      
+  
+  }
+  
+  .input,
+  .output {
+   height: 100%;
+   margin: 1rem;
+   padding: 1rem;
+   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+  }
+  
+  
+  .input_unit,
+  .output_unit {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border: none;
+    border-bottom: 2px solid #42855B;
+    background-color: transparent;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: right;
+    
+  }
+  .input_unit:focus {
+      outline: none;
+    }
+  
+  select {
+      background-color: transparent;
+      color: white;
+      /* border: green; */
+      height: 2rem;
+      font-size: 1.2rem;
+      margin: 10px;
+  }
+  select > option {
+      background: #483838;
+      color: white;
+  }
